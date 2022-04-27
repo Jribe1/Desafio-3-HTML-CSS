@@ -1,0 +1,252 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+main {
+    min-height: calc(100vh - 126px - 73px);
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logotipo {
+    height: 64px;
+    max-width: 80%;
+    height: auto;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1351d8;
+}
+
+.cabecalho-menu-item:hover {
+    color: #1351d89a;
+}
+
+.conteudo-principal-imagem {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.conteudo-principal-titulo {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.conteudo-principal-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: #1351d8;
+}
+
+.conteudo-principal-link:hover {
+    color: #1351d89a;
+}
+
+.rodape {
+    width: auto;
+    background-color: #1b357e;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.social-titulo {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 12px;
+    margin-left: 14px;
+    font-size: 14px;
+    color: white;
+}
+
+.copyright {
+    font-size: 12px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.rodape-logo {
+    margin-right: 24px;
+    margin-left: 12px;
+}
+
+
+/* CSS DA PÁGINA LANÇAMENTO */
+
+.conteudo-carros {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.conteudo-bloco .input-e-texto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#conteudo-comparacao-checkbox {
+   margin-right: 15px;
+    transform: scale(2);
+}
+
+.conteudo-comparacao-texto-titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #1351d8;
+}
+
+.conteudo-comparacao-texto-subtitulo {
+    margin: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(61, 61, 61);
+}
+
+.conteudo-veiculos-botao {
+    font-weight: 500;
+    display: block;
+    margin: 30px auto;
+    background-color: #1351d8;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 12px;
+    width: 220px;
+    border: none;
+    border-radius: 6px;
+}
+
+.conteudo-veiculos-botao:hover {
+    background-color: #1351d8b7;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    cursor:pointer;
+}
+
+/* CSS DA PÁGINA CONTATO */
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-imagem {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.titulo-sobre {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #353535;
+    margin: 20px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.input-padrao {
+	display: flex;
+    flex-wrap: wrap;
+	margin: 0 0 8px;
+	padding: 8px 8px;
+}
+
+.titulo-contato {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #353535;
+    margin: 20px 0;
+}
+
+.input-select {
+    padding: 8px 8px;
+    color: #525252;
+    margin-bottom: 20px;
+}
+
+.titulo-prefere-contato {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #353535;
+    margin: 20px 0;
+}
+
+.radio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+
+.checkbox {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 100%;
+	padding: 15px 15px;
+	background-color: #1351d8;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.enviar:hover {
+	background-color: #0f46bb;
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 600px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
